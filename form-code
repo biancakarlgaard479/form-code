@@ -1,0 +1,24 @@
+ <form id="order_form" class="order_form" action="thank-you.php" method="post">
+                
+<input type="hidden" name="sendemail" value="yes"><input type="hidden" name="redirect" value="yes">
+
+
+<input class="field" type="text" name="name" placeholder="Введіть Ваше ім'я" required="" value="">
+                <input class="field" type="tel" name="phone" placeholder="Введіть Ваш телефон" required="" value="">
+                               <select name="comment" class="field" required="">
+    <option selected="" value="1">▼ Обрати кiлькiсть (шт.)</option>
+						<option value="1" data-price="599" data-id="1">1 шт. - 599 грн.
+</option>
+						<option value="2" data-price="1298" data-id="2">2шт. - 1298 грн. (-100 грн знижка)
+</option>
+						<option value="3" data-price="1897" data-id="3">3шт. - 1897 грн. (-200 грн знижка)
+</option>
+						<option value="4" data-price="2496" data-id="4">4шт. - 2496 грн. (-300 грн знижка) </option>
+</select>
+                
+                <button id="btn1" class="button-m1">Замовити зі знижкою</button>
+            <div>&nbsp;</div>
+            <div class="products_count center">Кожен наступний товар <b>на 100 грн</b> дешевше</div> 
+           
+            </form>
+        
